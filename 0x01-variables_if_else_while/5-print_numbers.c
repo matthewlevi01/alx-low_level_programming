@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	char digit = 0;
+	int digit = 0;
 
 	for (digit = 0; digit < 10; digit++)
 	{
