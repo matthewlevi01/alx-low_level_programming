@@ -10,7 +10,7 @@
 int main(void)
 {
 	char lowerCase = 'a';
-	char upperCase = 'A'
+	char upperCase = 'A';
 
 		for (lowerCase = 'a'; lowerCase <= 'z'; lowerCase++)
 		{
