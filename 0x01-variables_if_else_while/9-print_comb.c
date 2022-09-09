@@ -9,16 +9,17 @@
 
 int main(void)
 {
-	int digit;
+	char digit;
 
 	for (digit = '0'; digit < '10'; digit++)
 	{
 		putchar(digit);
 		if (digit != 9)
 		{
-			putchar(', ');
+			putchar(',');
+			putchar(' ');
 		}
 	}
-	putchar('\n);
+	putchar('\n');
 	return (0);
 }
