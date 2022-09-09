@@ -1,9 +1,14 @@
 #include <stdio.h>
 
-/*
- *main - program entry point
- * Description - this program prints the various sizes of various types
- * */
+/**
+ * main - Entry point
+ * This program prints the various sizes
+ * of various types compiled and run
+ *
+ * And it is to return a 0 as output
+ * Return : Always 0 (Success)
+ */
+
 int main(void)
 {
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
