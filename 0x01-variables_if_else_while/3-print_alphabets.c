@@ -9,10 +9,17 @@
 
 int main(void)
 {
-	char letter = 'a';
+	char lowerCase = 'a';
+	char upperCase = 'A'
 
-		for (letter = 'a'; letter <= 'Z'; letter++)
-			putchar(letter);
+		for (lowerCase = 'a'; lowerCase <= 'z'; lowerCase++)
+		{
+			putchar(lowerCase);
+		}
+
+	for (upperCase = 'A'; upperCase <= 'Z'; upperCase++)
+		putchar(upperCase);
+
 	putchar('\n');
 	return (0);
 }
