@@ -23,6 +23,7 @@ int main(void)
 				putchar(j /10);
 				putchar(j % 10);
 			}
+		}
 	}
 	return (0);
 }
