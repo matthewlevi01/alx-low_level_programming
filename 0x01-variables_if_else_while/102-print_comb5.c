@@ -22,7 +22,7 @@ int main(void)
 				putchar(' ');
 				putchar(j /10);
 				putchar(j % 10);
-
+			}
 	}
 	return (0);
 }
