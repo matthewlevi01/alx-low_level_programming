@@ -19,11 +19,11 @@ int main(void)
 			{
 				for (l = '0'; l <= '9'; l++)
 				{
-					putchar('0' + i);
-					putchar('0' + j);
+					putchar(i);
+					putchar(j);
 					putchar(' ');
-					putchar('0' + k);
-					putchar('0' + l);
+					putchar(k);
+					putchar(l);
 					putchar(',');
 				}
 			}
