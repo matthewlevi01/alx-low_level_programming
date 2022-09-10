@@ -9,12 +9,12 @@
 
 int main(void)
 {
-	int i, j;
+	int i;
 
 	for (i = 0; i < 100; i++)
 	{
 		putchar(i/10);
-		putchar(1%10);
+		putchar(i%10);
 	}
 	
 	return (0);
