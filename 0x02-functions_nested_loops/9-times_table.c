@@ -28,7 +28,7 @@ void times_table(void)
 					_putchar('0' + s);
 					if (column != 9)
 					{
-						_putchar(' ');
+						_putchar(',');
 					}
 					_putchar(' ');
 				}
