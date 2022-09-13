@@ -18,7 +18,7 @@ void times_table(void)
 			while (column <= 9)
 			{
 				int r = row * column;
-				
+
 				_putchar(r + '0');
 				if (column != 9)
 				{
