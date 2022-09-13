@@ -18,8 +18,15 @@ void times_table(void)
 			while (column <= 9)
 			{
 				int r = row * column;
+				int f, s;
 
-				_putchar('0' + r);
+				if (r >= 10 && r < 100)
+				{
+					f = r / 10;
+					s = r % 10;
+					_putchar('0' + f);
+					_putchar('0' + s);
+				}
 				if (column != 9)
 				{
 					_putchar(',');
