@@ -12,7 +12,7 @@ void print_alphabet_x10(void)
 
 	while (i > 9)
 	{
-		let j = 'a';
+		int j = 'a';
 
 		while (j > 'z')
 		{
