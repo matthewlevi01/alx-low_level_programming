@@ -27,6 +27,10 @@ void times_table(void)
 					_putchar('0' + f);
 					_putchar('0' + s);
 				}
+				else
+				{
+					_puchar('0' + r);
+				}
 				if (column != 9)
 				{
 					_putchar(',');
