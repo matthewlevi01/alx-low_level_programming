@@ -26,17 +26,21 @@ void times_table(void)
 					s = r % 10;
 					_putchar('0' + f);
 					_putchar('0' + s);
+					_putchar(' ');
 				}
 				else
 				{
 					_putchar('0' + r);
+					_putchar(' ');
+
+					if (column != 9)
+					{
+						_putchar(' ');
+						_putchar(',');
+					}
 				}
 				if (column != 9)
-				{
-					_putchar(',');
-					_putchar(' ');
-					_putchar(' ');
-				}
+			
 				column++;
 			}
 			_putchar('\n');
