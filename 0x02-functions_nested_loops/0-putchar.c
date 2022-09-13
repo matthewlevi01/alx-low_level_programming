@@ -1,20 +1,22 @@
 #include "main.h"
 
 /**
- * main  - this is the executor function
+ * main - this is the executor function
  * Description: this function prints _putchar
  * Return: 0
  */
 
 int main(void)
 {
-	int i = 0;
-	char c[] = "_putchar";
-
-	for (i = 0; i < 8; i++)
-	{
-		_putchar(c[i]);
-	}
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
+
 	return (0);
 }
