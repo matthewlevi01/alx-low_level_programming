@@ -17,12 +17,15 @@ void times_table(void)
 
 			while (column <= 9)
 			{
-				_putchar(row * column);
+				int r = row * column
+				_putchar(r + '0');
 				if (column != 9)
 				{
 					_putchar(',');
+					_putchar(' ');
 				}
 				column++;
+				_putchar ('\n');
 			}
 			row++;
 		}
