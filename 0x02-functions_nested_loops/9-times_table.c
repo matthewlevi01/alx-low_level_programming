@@ -19,7 +19,7 @@ void times_table(void)
 			{
 				int r = row * column;
 
-				_putchar(r);
+				_putchar('0' + r);
 				if (column != 9)
 				{
 					_putchar(',');
