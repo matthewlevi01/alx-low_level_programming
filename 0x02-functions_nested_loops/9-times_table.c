@@ -24,18 +24,18 @@ void times_table(void)
 				{
 					f = r / 10;
 					s = r % 10;
-					_putchar(' ');
 					_putchar('0' + f);
 					_putchar('0' + s);
-					if (column != 9)
+					if (column < 9)
 					{
 						_putchar(',');
+						_putchar(' ');
 					}
 				}
 				else
 				{
 					_putchar('0' + r);
-					if (column != 9)
+					if (column < 9)
 					{
 						_putchar(',');
 						_putchar(' ');
