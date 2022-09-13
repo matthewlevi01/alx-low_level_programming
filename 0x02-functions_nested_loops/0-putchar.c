@@ -9,8 +9,13 @@
 
 int main(void)
 {
-	_putchar('_');
-	_putchar('\n');
+	char c[] = "_putchar";
+	int i = 0;
 
+	for (int i = 0; i < 8; i++)
+	{
+		_putchar(c[i]);
+	}
+	_putchar('\n');
 	return (0);
 }
