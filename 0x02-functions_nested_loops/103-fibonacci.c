@@ -12,7 +12,7 @@
 int main(void)
 {
 	long int fibValue1 = 1, fibValue2 = 2;
-	long int fibValue;
+	long int fibValue = 0;
 	long int evenFibValue = 2;
 
 	while (fibValue <= 4000000)
