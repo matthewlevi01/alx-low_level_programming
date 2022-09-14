@@ -4,7 +4,7 @@
  * main - executor
  * Description: this prints sum of multiples of 3 and 5 below 1024
  *
- * Return: 0
+ * Return: sum
  */
 
 int main(void)
