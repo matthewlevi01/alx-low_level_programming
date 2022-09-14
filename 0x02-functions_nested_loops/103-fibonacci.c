@@ -11,16 +11,17 @@
 
 int main(void)
 {
-	long int fibValue1 = 1, fibValue2 = 2, fibValue;
-	long int evenFibValue = 2; 
+	long int fibValue1 = 1, fibValue2 = 2;
+	long int fibValue;
+	long int evenFibValue = 2;
 
 	while (fibValue <= 4000000)
 	{
 		fibValue = fibValue1 + fibValue2;
-		
 		if (fibValue % 2 == 0)
+		{
 			evenFibValue += fibValue;
-		
+		}
 		fibValue1 = fibValue2;
 		fibValue2 = fibValue;
 
