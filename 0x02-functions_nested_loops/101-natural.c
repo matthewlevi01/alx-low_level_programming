@@ -10,7 +10,6 @@
 int main(void)
 {
 	int i, sum;
-i
 
 	for (i = 0; i <= 1024; i++)
 	{
