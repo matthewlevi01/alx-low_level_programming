@@ -4,12 +4,13 @@
  * main - executor
  * Description: this prints sum of multiples of 3 and 5 below 1024
  *
- * Return: sum
+ * Return: 0
  */
 
 int main(void)
 {
 	int i, sum;
+i
 
 	for (i = 0; i <= 1024; i++)
 	{
@@ -18,6 +19,7 @@ int main(void)
 			sum += i;
 		}
 	}
-	return (sum);
+	printf("%d", sum);
+	return (0);
 	printf("\n");
 }
