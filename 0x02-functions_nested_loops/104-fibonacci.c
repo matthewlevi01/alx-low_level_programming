@@ -12,12 +12,12 @@ int main(void)
 	long int x = 1, y = 2, z;
 	int n;
 
-	for (n = 1; n <= 98; n++)
+	for (n = 0; n < 98; n++)
 	{
 		z = x + y;
-		if (n == 1 || n == 2)
+		if (n == 0)
 		{
-			printf("%d", n);
+			printf("%ld", z);
 		}
 		else
 			printf(", %ld", z);
