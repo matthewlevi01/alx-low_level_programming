@@ -22,11 +22,15 @@ int print_diagonal(int n)
 		{
 			for (i = 1; i <= row; i++)
 			{
-				_putchar('\\');
+				if (i == 1)
+				{
+					_putchar('\\');
+				}
 
 				if (i > 1)
 				{
 					_putchar(' ');
+					_putchar('\\');
 				}
 			}
 		}
