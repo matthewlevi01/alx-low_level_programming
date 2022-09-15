@@ -1,10 +1,8 @@
 #include "main.h"
 
 /**
- * main - executor function
- * Description: this tests the positive_or_negative function
- *
- * Return: 0 on success
+ * main - tests function that prints if integer is positive or negative
+ * Return: 0
  */
 
 int main(void)
