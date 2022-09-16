@@ -9,25 +9,29 @@
 
 int main(void)
 {
-	int number = 612852475143;
-	int factor, primeFactor, i, j;
+	unsigned long number = 612852475143;
+	unsigned long biggestPrimeFactor, i, j;
+	int flag = 0;
 
-
-	for (i = 1; i < number; i++)
+	for (i = 2; i < number; i++)
 	{
-		if (i > 1 && number % i == 0)
+		if (number % i == 0)
 		{
-			factor = i;
-
 			/* check if factor is a prime number */
-			for (j = 1; j < factor; j++)
+			for (j = 2; j < i; j++)
 			{
-				if (j > 1 && factor % j != 0)
+				if (i % j == 0)
 				{
-					primeFactor = factor;
+					flag = 1;
+					break;
 				}
+				else
+					flag = 0;
 			}
+			if (i > 1 && flag == 0)
+				biggestPrimeFactor = i;
 		}
 	}
-	printf("%d\n", primeFactor);
+	printf("%lu\n", biggestPrimeFactor);
+	return (0);
 }
