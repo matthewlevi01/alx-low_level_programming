@@ -12,13 +12,13 @@ void rev_string(char *str)
 	int l = 0, i = 0;
 	char z;
 
-	while (s[i++])
+	while (str[i++])
 		l++;
 
 	for (i = l - 1; i >= l / 2; i--)
 	{
-		z = s[i];
-		s[i] = s[l - i - 1];
-		s[l - i - 1] = z;
+		z = str[i];
+		str[i] = str[l - i - 1];
+		str[l - i - 1] = z;
 	}
 }
