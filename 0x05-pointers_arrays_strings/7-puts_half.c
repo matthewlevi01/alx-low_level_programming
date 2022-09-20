@@ -13,7 +13,7 @@ void puts_half(char *str)
 	int length = strlen(str);
 	int midPoint;
 
-	if (lenght % 2 != 0)
+	if (length % 2 != 0)
 		midPoint = (length - 1) / 2;
 	else
 		midPoint = length / 2;
