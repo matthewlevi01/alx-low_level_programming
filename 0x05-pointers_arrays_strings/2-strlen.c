@@ -10,13 +10,12 @@
 
 int _strlen(char *s)
 {
-	int counter = 0;
-	int i;
+	int i = 0;
 
 	while (*(s + i) != 0)
 	{
-		counter++;
+		i++
 	}
-	return (counter);
+	return (i);
 }
 
