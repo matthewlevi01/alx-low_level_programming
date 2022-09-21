@@ -10,15 +10,14 @@
 void puts_half(char *str)
 {
 	int i = 0;
-	int length = strlen(str);
-	int midPoint = 0;
+	int length_of_the_string = strlen(str)
+	int midPoint = wordLength / 2;
+	int outputLength;
 
-	if (length % 2 != 0)
-		midPoint = (length - 1) / 2;
-	else
-		midPoint = length / 2;
+	if (length_of_the_string % 2 != 0)
+		midPoint = (length_of_the_string - 1) / 2;
 
-	for (i = midPoint; midPoint < length; i++)
+	for (i = midPoint; midPoint <= length; i++)
 	{
 		putchar(str[i]);
 	}
