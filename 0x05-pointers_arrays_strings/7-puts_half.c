@@ -10,7 +10,7 @@
 void puts_half(char *str)
 {
 	int i = 0;
-	int length_of_the_string = strlen(str)
+	int length_of_the_string = strlen(str);
 	int midPoint = wordLength / 2;
 	int outputLength;
 
