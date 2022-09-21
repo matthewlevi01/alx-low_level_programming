@@ -11,13 +11,13 @@ void puts_half(char *str)
 {
 	int i = 0;
 	int length_of_the_string = strlen(str);
-	int midPoint = wordLength / 2;
+	int midPoint = length_of_the_string / 2;
 	int outputLength;
 
 	if (length_of_the_string % 2 != 0)
 		midPoint = (length_of_the_string - 1) / 2;
 
-	for (i = midPoint; midPoint <= length; i++)
+	for (i = midPoint; midPoint <= length_of_the_string; i++)
 	{
 		putchar(str[i]);
 	}
