@@ -12,7 +12,6 @@ void puts_half(char *str)
 	int i = 0;
 	int length_of_the_string = strlen(str);
 	int midPoint = length_of_the_string / 2;
-	int outputLength;
 
 	if (length_of_the_string % 2 != 0)
 		midPoint = (length_of_the_string - 1) / 2;
