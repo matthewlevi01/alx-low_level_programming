@@ -10,18 +10,18 @@
 
 void reverse_array(int *a, int n)
 {
-	int no_of_swaps = 0;
+	int no_of_swaps;
 	int temp;
 	int i = 0;
 
 	no_of_swaps = n / 2;
 
-	while (j < no_of_swaps)
+	while (i < no_of_swaps)
 	{
 		temp = a[n - 1];
 		a[n - 1] = a[i];
 		a[i] = temp;
-		j++;
+		i++;
 		n--;
 	}
 }
