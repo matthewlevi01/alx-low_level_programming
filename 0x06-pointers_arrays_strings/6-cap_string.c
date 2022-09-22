@@ -11,11 +11,11 @@ char *cap_string(char *str)
 {
 	int i = 0;
 	char a[] = " \t\n,:.!?\"(){}";
-	int j = 0;
+	int j;
 
 	while (str[i])
 	{
-		if (str[i] >= 'a' || str[i] <= 'z')
+		if (str[i] >= 'a' && str[i] <= 'z')
 		{
 			if (i == 0)
 				str[i] -= 'a' - 'A';
@@ -23,9 +23,9 @@ char *cap_string(char *str)
 			{
 				for (j = 0; j <= 12; j++)
 				{
-					if (str[i - 1] == a[j])
+					if (str[i] == a[j])
 					{
-						str[i] -= 'a' - 'A';
+						str[i + 1] -= 'a' - 'A';
 					}
 				}
 			}
