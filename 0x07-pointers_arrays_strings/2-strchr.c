@@ -11,12 +11,15 @@
 char *_strchr(char *s, char c)
 {
 	int i = 0;
+	char *cpointer;
 
-	while (s[i] >= '\0')
-
+	while (s[i] != '\0')
 	{
 		if (s[i] == c)
-			return (&s[i]);
+		{
+			cpointer = &s[i];
+			return (cpointer);
+		}
 		i++;
 	}
 	return (NULL);
