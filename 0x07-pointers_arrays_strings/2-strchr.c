@@ -19,7 +19,6 @@ char *_strchr(char *s, char c)
 		{
 			cpointer = &s[i];
 			return (cpointer);
-
 		}
 		i++;
 	}
