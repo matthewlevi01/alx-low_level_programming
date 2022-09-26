@@ -18,10 +18,10 @@ char *_strchr(char *s, char c)
 		if (c == s[i])
 		{
 			cpointer = &s[i];
-			break;
+			return (cpointer);
 
 		}
 		i++;
 	}
-	return (cpointer);
+	return (NULL);
 }
