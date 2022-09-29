@@ -11,4 +11,7 @@ int is_square_root(int num, int squared);
 int _sqrt_recursion(int n);
 int is_prime_number(int n);
 int is_prime(unsigned int n, unsigned int c);
+int check_pal(char *s, int i, int len);
+int is_palindrome(char *s);
+int _strlen_recursion(char *s);
 #endif /*MAIN_H*/
