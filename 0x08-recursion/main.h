@@ -13,5 +13,7 @@ int is_prime_number(int n);
 int is_prime(unsigned int n, unsigned int c);
 int check_pal(char *s, int i, int len);
 int is_palindrome(char *s);
-int _strlen_recursion(char *s);
+int _strlen_recursion(char *s);;
+int substring_match(char *s1, char *s2, char *after_wldcd);
+int wildcmp(char *s1, char *s2)
 #endif /*MAIN_H*/
