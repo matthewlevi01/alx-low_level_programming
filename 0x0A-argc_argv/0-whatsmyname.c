@@ -8,7 +8,7 @@
  *
  */
 
-int main(int argc, char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
 	printf("Program name is: %s\n", argv[0]);
 
