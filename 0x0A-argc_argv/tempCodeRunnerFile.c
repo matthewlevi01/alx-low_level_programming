@@ -8,12 +8,9 @@
  *
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char *argv[] __attribute__((unused)))
 {
-	while (argc--)
-	{
-		printf("%s\n", *argv++);
-	}
+	printf("%d\n", argc - 1);
 
 	return (0);
 }
